@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DE644E22-7A11-470C-ABBA-6A5F91DA4E5A}</ProjectGuid>
+    <ProjectGuid>{FA00C17A-7221-401D-861D-CD499D86ED1E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.CherepanovVS.Sprint5.Task0.V0</RootNamespace>
-    <AssemblyName>Tyuiu.CherepanovVS.Sprint5.Task0.V0</AssemblyName>
+    <RootNamespace>Tyuiu.CherepanovVS.Sprint5.Task0.V13</RootNamespace>
+    <AssemblyName>Tyuiu.CherepanovVS.Sprint5.Task0.V13</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.CherepanovVS.Sprint5.Task0.V13.Lib\Tyuiu.CherepanovVS.Sprint5.Task0.V13.Lib.csproj">
+      <Project>{2e107b05-b07e-4a92-908b-e78b860ebc78}</Project>
+      <Name>Tyuiu.CherepanovVS.Sprint5.Task0.V13.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
