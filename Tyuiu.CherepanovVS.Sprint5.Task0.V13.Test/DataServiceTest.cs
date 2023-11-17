@@ -11,7 +11,7 @@ namespace Tyuiu.CherepanovVS.Sprint5.Task0.V13.Test
         [TestMethod]
         public void CheckedExistsFile()
         {
-            string path = @"C:\Users\Вячеслав\source\repos\Tyuiu.CherepanovVS.Sprint5\Tyuiu.CherepanovVS.Sprint5.Task0.V13\bin\Debug\OutPutFileTask0.Text";
+            string path = @"C:\Users\Вячеслав\source\repos\Tyuiu.CherepanovVS.Sprint5\Tyuiu.CherepanovVS.Sprint5.Task0.V13\bin\Debug\OutPutFileTask0.txt";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;
